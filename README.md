@@ -13,7 +13,7 @@ There are two main types of leakage: **target leakage** and **train-test contami
 - It is important to think about target leakage in terms of the timing or chronological order that data becomes available, not merely whether a feature helps make good predictions.
 
 #### To prevent this type of data leakage, any variable updated (or created) after the target value is realized should be excluded.
-![leakage.png](attachment:leakage.png)
+![leakage.png](leakage.png)
 
 ### 2. Train-Test Contamination
 
